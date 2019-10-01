@@ -1,0 +1,21 @@
+{
+  "name": "blognews",
+  "version": "1.0.0",
+  "description": "News blog about IT ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "news",
+    "node.js",
+    "fullstack",
+    "it"
+  ],
+  "author": "Viktor Udut",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
