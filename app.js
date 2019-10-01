@@ -1,8 +1,14 @@
 const express = require('express')
+const mongoose = require('mongoose')
 const path = require('path')
 
+const keys = require('./keys')
 const port = process.env.PORT || 5000
 const clientPath = path.join(__dirname, 'client')
+
+mongoose.connect(keys.mongoURL)
+    .then(() => console.log('MongoDB connected!'))
+    .catch(err => console.log(err))
 
 const app = express()
 
