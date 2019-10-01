@@ -4,7 +4,8 @@
   "description": "News blog about IT ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [
     "blog",
@@ -17,5 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
   }
 }
